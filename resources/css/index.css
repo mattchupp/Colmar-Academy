@@ -1,0 +1,59 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+
+header {
+  display: flex;
+  height: 64px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header h1 {
+  font-family: serif;
+  font-size: 32px;
+  /*height: 50px;*/
+  padding-left: 24px;
+  align-self: center;
+}
+
+footer {
+  height: 200px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  margin-left: 30px;
+}
+
+nav span {
+  padding-right: 16px;
+}
+
+nav span:last-child {
+  padding-right: 24px;
+}
+
+nav span a {
+  color: black;
+  text-decoration: none;
+}
