@@ -1,12 +1,10 @@
 body {
-  font-family: Helvetica;
-  font-size: 22px;
-  opacity: 0.9;
+  font-family: Helvetica, sans-serif;
   margin: 0;
 }
 
 #container {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 
@@ -21,10 +19,10 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  background-color: white;
 }
 
 header h1 {
-  font-family: serif;
   font-size: 32px;
   align-self: center;
   text-transform: uppercase;
@@ -61,11 +59,53 @@ nav span a {
 */
 
 #section-1 {
+  position: relative;
   display: flex;
   align-items: center;
-  background-color: grey; 
+  flex-direction: row;
+  background-color: grey;
+  top: 64px;
 }
 
+#section-1 h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+#section-1 p {
+  margin-bottom: 12px;
+}
+
+#section-1 button {
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+
+#section-1 #content {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+}
+
+#section-1 img {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+/*
+  -- Second Section
+*/
+
+#section-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: grey;
+  top: 64px;
+}
 
 
 
