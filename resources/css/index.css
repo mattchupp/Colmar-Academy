@@ -10,10 +10,10 @@ body {
   margin: 0 auto;
 }
 
-.flex {
-  display: flex;
-}
 
+/*
+  -- Navbar
+*/
 
 header {
   display: flex;
@@ -26,14 +26,12 @@ header {
 header h1 {
   font-family: serif;
   font-size: 32px;
-  /*height: 50px;*/
-  padding-left: 24px;
   align-self: center;
+  text-transform: uppercase;
 }
 
-footer {
-  height: 200px;
-  text-align: center;
+header img {
+  padding-left: 24px;
 }
 
 nav {
@@ -56,4 +54,50 @@ nav span:last-child {
 nav span a {
   color: black;
   text-decoration: none;
+}
+
+/*
+  -- First Section
+*/
+
+#section-1 {
+  display: flex;
+  align-items: center;
+  background-color: grey; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  height: 200px;
+  text-align: center;
 }
