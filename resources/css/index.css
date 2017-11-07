@@ -129,25 +129,24 @@ h2 {
 #section-2 #right-col {
   width: 40%;
   margin-left: 24px;
-  /*padding-left: 24px;*/
   display: flex;
   flex-direction: column;
 }
 
-#tab {
+#section-2 #tab {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
-  margin-left: 24px;
+  /*margin-left: 24px;*/
   border: 1px solid grey;
 }
 
-#right-col #tab img {
+#section-2 #right-col #tab img {
   width: 35%;
 }
 
-#tab #content {
+#section-2 #tab #content {
   width: 65%;
 }
 
@@ -181,26 +180,137 @@ h2 {
   font-size: 1rem;
 }
 
-#section-2 #last {
-  background-color: grey;
-}
 
 #section-2 .last {
   background-color: grey;
 }
 
-
+/*
+  -- Section 3
+*/
 
 #section-3 {
   position: relative;
   display: flex;
+  flex-direction: column;
+  background-color: grey;
+  padding-bottom: 32px;
+  width: 100%;
+}
+
+#section-3 h1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+}
+
+#section-3 #blocks {
+  display: flex;
   align-items: center;
   flex-direction: row;
-  background-color: grey;
+  flex-wrap: wrap;
+  margin-right: 72px;
+  margin-left: 72px;
+}
+
+#section-3 #blocks #box {
+  background-color: white;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  margin-right: 32px;
+}
+
+#section-3 #blocks #box h2 {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+#section-3 #blocks #box p {
+  padding-top: 8px;
+  padding-left: 16px;
+}
+
+#section-3 #blocks #box img {
+  height: auto;
 }
 
 
+/*
+  -- Forth Section
+*/
 
+#section-4 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  margin-top: 64px;
+}
+
+#section-4 #left-col {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#section-4 #right-col {
+  width: 40%;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+#section-4 #tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  /*margin-left: 24px;*/
+  border: 1px solid grey;
+}
+
+#section-4 #right-col #tab video {
+  width: 35%;
+}
+
+#section-4 #tab #content {
+  width: 65%;
+}
+
+#section-4 #left-col p,
+#section-4 #left-col h1 {
+  padding-left: 24px;
+  width: 60%;
+}
+
+#section-4 h1 {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+#section-4 h2 {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+#section-4 img {
+  padding: 32px 24px;
+  width: 100%;
+}
+
+#section-4 p {
+  font-size: 1rem;
+  padding-bottom: 12px;
+}
+
+#section-4 a {
+  font-size: 1rem;
+}
+
+
+#section-4 .last {
+  background-color: grey;
+}
 
 
 
