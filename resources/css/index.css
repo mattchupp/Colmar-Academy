@@ -1,10 +1,11 @@
 body {
   font-family: Helvetica, sans-serif;
   margin: 0;
+  font-size: 12px;
 }
 
 #container {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 
@@ -23,13 +24,17 @@ header {
 }
 
 header h1 {
-  font-size: 32px;
+  font-size: 2rem;
   align-self: center;
   text-transform: uppercase;
 }
 
 header img {
   padding-left: 24px;
+}
+
+header a {
+  font-size: 1rem;
 }
 
 nav {
@@ -54,11 +59,19 @@ nav span a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 /*
   -- First Section
 */
 
-#section-1 {
+#learn {
   position: relative;
   display: flex;
   align-items: center;
@@ -67,29 +80,30 @@ nav span a {
   top: 64px;
 }
 
-#section-1 h1 {
-  font-size: 32px;
+#learn h1 {
   margin-bottom: 12px;
   font-weight: bold;
 }
 
-#section-1 p {
+#learn p {
+  font-size: 1rem;
   margin-bottom: 12px;
 }
 
-#section-1 button {
+#learn button {
   padding: 8px;
   background-color: black;
   color: white;
+  border: black;
 }
 
-#section-1 #content {
+#learn #content {
   width: 270px;
   display: flex;
   flex-direction: column;
 }
 
-#section-1 img {
+#learn img {
   padding: 32px 24px;
   width: 60%;
 }
@@ -99,11 +113,11 @@ nav span a {
 */
 
 #section-2 {
-  position: relative;
   display: flex;
-  align-items: center;
   flex-direction: row;
   background-color: white;
+  width: 100%;
+  margin-top: 64px;
 }
 
 #section-2 #left-col {
@@ -115,23 +129,22 @@ nav span a {
 #section-2 #right-col {
   width: 40%;
   margin-left: 24px;
-  padding-left: 24px;
+  /*padding-left: 24px;*/
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 #tab {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 40%;
+  width: 100%;
+  margin-left: 24px;
+  border: 1px solid grey;
 }
 
-#tab img {
+#right-col #tab img {
   width: 35%;
-  height: auto;
-  padding: 16px;
 }
 
 #tab #content {
@@ -145,7 +158,11 @@ nav span a {
 }
 
 #section-2 h1 {
-  font-size: 32px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+#section-2 h2 {
   margin-bottom: 12px;
   font-weight: bold;
 }
@@ -155,6 +172,22 @@ nav span a {
   width: 100%;
 }
 
+#section-2 p {
+  font-size: 1rem;
+  padding-bottom: 12px;
+}
+
+#section-2 a {
+  font-size: 1rem;
+}
+
+#section-2 #last {
+  background-color: grey;
+}
+
+#section-2 .last {
+  background-color: grey;
+}
 
 
 
